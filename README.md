@@ -1,6 +1,5 @@
 This code, (R Studio code) developed during my internship, analyzes roadless areas in Italy.
-This project analyzes roadless areas in Italy using various data sources. 
-The analysis includes road data from Open Street Map, administrative data from GADM, and water and wetness layers from Copernicus.
+This project analyzes roadless areas in Italy using various data sources: road data from Open Street Map, administrative data from GADM, and water and wetness layers from Copernicus.
 The additional layers depend on the variables you wish to analyze.
 Here’s a summary of the steps taken:
 
