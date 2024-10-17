@@ -117,7 +117,7 @@ for (i in 1:length(result_buffered)) {
 
 ###########################
 
-#In my internship, I considered only those surfaces that were at least 1 km² large.
+#In my internship, I considered only those surfaces that were at least 1 kmÂ² large.
 
 
 #set the coordinates
@@ -130,7 +130,7 @@ filter_function <- function(unfiltered_polygons) {
     # calculating the area
     area <- st_area(polygon)
     
-    # keep only those that are >  km²
+    # keep only those that are >  kmÂ²
     if (area > 1e6) {
       return(polygon)
     } else {
@@ -230,7 +230,7 @@ for(i in 1:length(no_water_first_subreg)){
 first_subreg_no_water <- st_sf(geometry = st_sfc(), crs = st_crs('EPSG:3035'))
 
 # set the desired threshold
-water_threshold <- 0.7
+water_threshold <- ***
 
 #  select only those polygon that contain less than 70% of water
 for (i in 1:length(no_water_first_subreg)) {
